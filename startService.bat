@@ -1,4 +1,5 @@
 echo Current Dir "%CD%"
+call mvn clean package
 xcopy /s /Y "C:\Users\Andika Mulyawan\.jenkins\workspace\test" E:\GIT\PUBLISH\Test
 xcopy /s /Y "C:\Users\Andika Mulyawan\.jenkins\workspace\test\target" E:\GIT\PUBLISH\Test
 
