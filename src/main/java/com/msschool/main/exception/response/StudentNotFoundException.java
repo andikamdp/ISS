@@ -1,4 +1,4 @@
-package com.Andika_Training.demo.exceptionHandling.ResponseStatus;
+package com.msschool.main.exception.response;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
